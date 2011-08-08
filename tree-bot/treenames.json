@@ -1,0 +1,9 @@
+{
+  "m-c" : "mozilla-central",
+  "m-b" : "mozilla-beta",
+  "m-a" : "mozilla-aurora",
+  "m-i" : "integration/mozilla-inbound",
+  "t-m" : "tracemonkey",
+  "ux" : "projects/ux",
+  "fx" : "integration/fx-team"
+}
