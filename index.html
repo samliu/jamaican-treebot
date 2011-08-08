@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./assets/css/screen.css" type="text/css"/>
+	<link rel="stylesheet" href="./assets/css/sexylightbox.css" type="text/css" media="all" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://ambushnetworks.com:9876/nowjs/now.js"></script>
+
+
+    <script src="./assets/js/utils.js"></script>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.3/mootools-yui-compressed.js"></script>
+	<script type="text/javascript" src="./assets/js/sexylightbox.min.js"></script>
+	<script type="text/javascript">
+	    window.addEvent('domready', function(){
+	    SexyLightbox = new SexyLightBox({color:'black', dir: './assets/images'});
+	  });
+	</script>
+
+    <title>The Jamaican ATEAM artificial intelligence</title>
+</head>
+<body>
+<div id="wrapper">
+    <div id="topbar"></div>
+    <div class="logo"><span id="logo"></span>jamaican<span id="logo-2">treebot</span></div>
+
+	<div class="links" style="display:none"><a href="http://google.com?TB_iframe=true&height=500&width=960&background=#f1f1f1" rel="sexylightbox">Google</a></div>
+    <div class="main">
+                        <div class="box-first" id="box-1"></div>
+                        <div class="box-other" id="box-2"></div>
+                        <div class="box-other" id="box-3"></div>
+                        <div class="box-first" id="box-4"></div>
+                        <div class="box-other" id="box-5"></div>
+                        <div class="box-other" id="box-6"></div>
+                        <div class="box-first" id="box-7"></div>
+                        <div class="box-other" id="box-8"></div>
+                        <div class="box-other" id="box-9"></div>
+    </div>
+
+
+
+<div class="push"></div>
+
+</div>
+<div class="footer">
+        <div class="stupid"></div>
+            <center>
+                    <div style="width:960px; height:300px;opacity:0.8;">
+                        <!--div class="box-first" id="footer-box-1"></div>
+                        <div class="box-other" id="footer-box-2"></div>
+                        <div class="box-other" id="footer-box-3"></div-->
+                    </div>
+
+            </center>
+</div>
+
+<!-- Insert speech audio with html5/jquery here -->
+<div id="audio"></div>
+
+
+<script>
+$(document).ready(function() {
+	//Put js here
+    //$('.logo').delay(3000).fadeOut(3000);
+    $('.logo').delay(5000).fadeTo('slow', 0, function(){
+      $('.logo').html('<center>jamon.</center>').fadeTo('slow',1,function(){
+        $('.logo').delay(2000).fadeTo('slow',0,function(){
+        });
+      });
+    });
+    say("dem treez on faiah");
+    //say("Java is a programming language originally developed by James Gosling");
+
+
+    //$('#box-1').delay(1000).effect("highlight", {color: '#17232E'}, 3000);
+    //$('#box-2').delay(1000).effect("highlight", {color: '#021221'}, 3000);
+    //$('#box-3').delay(1000).effect("highlight", {color: '#010305'}, 3000);
+    //$('#box-4').delay(1000).effect("highlight", {color: '#17232E'}, 3000);
+    //$('#box-5').delay(1000).effect("highlight", {color: '#005F6B'}, 3000);
+    //$('#box-6').delay(1000).effect("highlight", {color: '#17232E'}, 3000);
+    //$('#box-7').delay(1000).effect("highlight", {color: '#00B4CC'}, 3000);
+    //$('#box-8').delay(1000).effect("highlight", {color: '#343838'}, 3000);
+    //$('#box-9').delay(1000).effect("highlight", {color: '#008C9E'}, 3000);
+
+
+});
+</script>
+</body>
+</html>
